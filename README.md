@@ -11,8 +11,14 @@ push!(LOAD_PATH, "/path/to/repo")
 ```
 to your `~/.juliarc.jl`.
 
-Consider the `Census1990` dataset.  We can load the data into an array using the following code.
+Consider the `Census1990` dataset.  We can load the data into an array using
 ```
 import MiscData
 X = MiscData.Census1990.read_array(nrows=500000);
+```
+or
+
+```
+import MiscData.Census1990
+X = Census1990.read_array(nrows=500000);
 ```
