@@ -14,7 +14,7 @@ path_to_datafile = dirname(@__FILE__)*"/USCensus1990.data.txt"
 
 """
 `read_df(nrows=-1) -> df`\\
-`read_df(path, nrows=-1) -> df`
+`read_df(data_filename, nrows=-1) -> df`
 
 Read the dataset into a `DataFrame`.
 """
@@ -30,8 +30,8 @@ end
 
 
 """
-`read_array(nrows=-1) -> X`\\
-`read_array(path, nrows=-1, eltype=Float64) -> X`
+`read_array(nrows=-1, eltype=Float64) -> X`\\
+`read_array(data_filename, nrows=-1, eltype=Float64) -> X`
 
 Read the dataset into an `Array{eltype,2}` of size `(n_ex, n_dim)`.
 """

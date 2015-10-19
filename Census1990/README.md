@@ -6,3 +6,15 @@ The big data file is `USCensus1990.data.txt`, but there are others that describe
 
 In addition to the papers listed at the UCI repository, this dataset is also used in "Fast and Accurate k-means For Large Datasets" by Michael Shindler et al.
 
+## Usage
+Read the dataset into a `DataFrame`.
+```
+read_df(nrows=-1) -> df
+read_df(data_filename, nrows=-1) -> df
+```
+
+Read the dataset into an `Array{eltype,2}` of size `(n_ex, n_dim)`.
+```
+read_array(nrows=-1, eltype=Float64) -> X
+read_array(data_filename, nrows=-1, eltype=Float64) -> X
+```
