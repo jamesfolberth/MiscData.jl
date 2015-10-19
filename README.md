@@ -7,7 +7,7 @@ A collection of Julia wrappers for datasets I've used.
 ## Usage
 First note that this isn't a Julia package, so it probably shouldn't be installed in `~/.julia/v0.*`.  Instead, you can add
 ```
-push!(LOAD_PATH, "/path/to/repo")
+push!(LOAD_PATH, "/path/to/repo/src")
 ```
 to your `~/.juliarc.jl`.
 

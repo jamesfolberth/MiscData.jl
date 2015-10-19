@@ -1,15 +1,17 @@
-Census1990/USCensus1990-desc.html
-Census1990/USCensus1990-task.html
-Census1990/USCensus1990.attributes.txt
-Census1990/USCensus1990.data.txt
-Census1990/USCensus1990.data.txt.sample
-Census1990/USCensus1990.html
-Census1990/USCensus1990.mapping.sql
-Census1990/USCensus1990.readme.txt
-Census1990/USCensus1990.task.txt
+data/Census1990/USCensus1990-desc.html
+data/Census1990/USCensus1990-task.html
+data/Census1990/USCensus1990.attributes.txt
+data/Census1990/USCensus1990.data.txt
+data/Census1990/USCensus1990.data.txt.sample
+data/Census1990/USCensus1990.html
+data/Census1990/USCensus1990.mapping.sql
+data/Census1990/USCensus1990.readme.txt
+data/Census1990/USCensus1990.task.txt
 
-Iris/bezdekIris.data
-Iris/iris.data
-Iris/iris.names
+data/CMC/cmc.data
 
-LIBRAS/movement_libras.data
+data/Iris/bezdekIris.data
+data/Iris/iris.data
+data/Iris/iris.names
+
+data/LIBRAS/movement_libras.data

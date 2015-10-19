@@ -9,14 +9,15 @@ A few wrappers for miscellaneous datasets.
 
 module MiscData
 
-include("Census1990/Census1990.jl")
-include("Iris/Iris.jl")
-include("LIBRAS/LIBRAS.jl")
-include("RandCluster/RandCluster.jl")
+include("../data/Census1990/Census1990.jl")
+include("../data/CMC/CMC.jl")
+include("../data/Iris/Iris.jl")
+include("../data/LIBRAS/LIBRAS.jl")
+include("../data/RandCluster/RandCluster.jl")
 
 
 # attach documentation to a few functions with the same interface.
-for mod in (:Iris,:LIBRAS)
+for mod in (:Iris,:LIBRAS,:CMC)
    @eval begin
       @doc """
       `read_df() -> df`\\
