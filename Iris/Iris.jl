@@ -15,12 +15,6 @@ DF = DataFrames
 # this fixes those errors
 path_to_datafile = dirname(@__FILE__)*"/bezdekIris.data"
 
-"""
-`read_df() -> df`
-`read_df(path) -> df`
-
-Read the dataset into a DataFrame.
-"""
 function read_df{S<:AbstractString}(path::S=path_to_datafile)
 
    path = UTF8String(path)
@@ -30,12 +24,6 @@ function read_df{S<:AbstractString}(path::S=path_to_datafile)
 end
 
 
-"""
-`read_array() -> X, y`
-`read_array(path) -> X, y`
-
-Read the dataset into an Array of type eltype.
-"""
 function read_array{S<:AbstractString}(
       path::S=path_to_datafile;
       eltype=Float64)
