@@ -1,5 +1,5 @@
 """
-A few wrappers for miscellaneous datasets.
+Wrappers for miscellaneous datasets.
 """
 
 #TODO: we could make this into a package and use Pkg.clone().  Does that automagically update with Pkg.update()?
